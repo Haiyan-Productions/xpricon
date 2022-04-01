@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/logo.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play&family=Raleway:wght@200&display=swap"
+        rel="stylesheet">
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="css1.css">
+    <link rel="stylesheet" href="css2.css">
+    <title>Docs Dr.win Cli Mode</title>
+    <style>
+        .a455 {
+            color: #04c0e9;
+            font-size: 18px;
+        }
+
+        .a455:hover {
+            color: #39cef0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="my-nav-21">
+        <!-- ico on nav -->
+        <div class="my-nav-21-logo-div">
+            <img style="width: 12rem;" src="images/main_logo.png" alt="">
+
+        </div>
+        <div class="my-nav-21-item-div">
+            <ul id="a45" class="my-nav-21-item-ul">
+                <li class="nav-item">
+                    <a class="nav-link my-nav-21-link-active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Documentation
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" style="color: black;" href="/cli_mode.html">Dr.Win Cli Mode</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" style="color: black;" href="/gui_mode.html">Dr.Win GUI Mode</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="my-btn-21" data-bs-toggle="modal" data-bs-target="#contactModal">
+                        Contact
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+    </nav>
+
+
+    <nav class="my-mob-nav-21">
+        <div class="my-mob-nav-21-logo-div">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="my-mob-nav-21-side-icon-div">
+            <button id="my-menu-btn" onclick="my_menu_down()" style="background: none; border: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-list my-nav-21-side-icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+
+
+            <button id="my-menu-x-btn" onclick="my_menu_up()" style="background: none; border: none; display: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-list my-nav-21-side-icon" viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+
+
+        </div>
+    </nav>
+
+
+    <div class="my-mob-nav-21-drop-option-bar" id="my-mob-nav-21-drop-option-bar">
+        <ul id="a46" class="my-nav-21-item-ul d-block">
+            <!-- add by java scrip -->
+        </ul>
+    </div>
+
+
+
+
+    <!-- trigger contact modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #161219;">
+                <div class="modal-header">
+
+                    <h5 class="modal-title" style="color: wheat;" id="contactModalLabel">
+                        <img style="width: 30px;" src="/images/logo.png" alt="">
+                        For Contact
+                    </h5>
+                    <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close"><svg
+                            style="color: wheat;" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z" />
+                            <path fill-rule="evenodd"
+                                d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z" />
+                        </svg></button>
+                </div>
+                <div class="modal-body">
+                    <ul style="list-style: none;">
+                        <li>
+                            <img style="width: 35px; border-radius: 2px;" src="/images/gmail_logo.jpg" alt=""> <a
+                                class="a455" href="/gmail">haiyanali03218772015@gmail.com</a>
+                        </li>
+                        <br>
+                        <li>
+                            <img style="width: 33px;" src="/images/facebook_logo.png" alt="">
+                        </li>
+                        <br>
+                        <li>
+                            <img style="width: 33px;" src="/images/instagram_logo.png" alt="">
+                        </li>
+                        <br>
+                        <li>
+                            <img style="width: 36px;" src="/images/whatsapp_logo.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div id="download_div">
+        <div>
+            <img style="width:20rem;" src="images/logo_2.png" alt="">
+        </div>
+
+        <div style="width: 100%; text-align: end; padding: 4% 6% 0 0;">
+            <h4 id="download_heading">Download</h4>
+            <br>
+            <button class="download_btns" onclick="download_cli_java()"> Cli Mode</button>
+            <br>
+        </div>
+
+    </div>
+
+    <div id="download_mob_div">
+        <img style="width: 40%;" src="images/logo_2.png" alt="">
+        <br>
+        <br>
+        <br>
+        <h1 id="download_heading_mob">Download</h1>
+        <button class="download_btns" onclick="download_cli_java()"> Cli Mode</button>
+        <br>
+
+
+    </div>
+
+
+
+    <br>
+
+    <div class="doc_images_div_cli">
+
+
+        <h3 class="docs_heading">About Dr.win Cli mode</h3>
+        <div>
+            <p class="para">
+                Dr.win is free application By Haiyan Production to activate your windows 10 in two clicks.
+                <br>
+                Dr.Win cli Mode is very light weight and easy to use and We prefer to use cli Mode because Cli Mode very
+                light
+                then GUI mode.
+            </p>
+        </div>
+
+        <br>
+        <br>
+
+
+
+
+
+
+        <h3 class="docs_heading">How to use Cli Mode</h3>
+        <div style="text-align: center;">
+            <br>
+            <div class="t_start">
+                <p class="para">
+                    After downloading file
+                    <br>
+                    First go to that folder in which you downloaded that file, In this case I downloaded file in default
+                    download path
+                </p>
+            </div>
+            <br>
+            <img style="width: 50%; min-width: 300px;" src="cli-mode-img/1.jpg" alt="">
+            <br>
+            <br>
+            <div class="t_start">
+                <p class="para">
+                    then open "Dr.Win" application
+                </p>
+            </div>
+            <img style="width: 50%; min-width: 300px;" src="cli-mode-img/2.jpg" alt="">
+            <br>
+            <br>
+            <div class="t_start">
+                <p class="para">
+                    allow the application to get administator previlages
+                </p>
+            </div>
+            <img style="width: 40%; min-width: 300px;" src="cli-mode-img/3.jpg" alt="">
+            <br>
+            <br>
+            <div class="t_start">
+                <p class="para">
+                    When the application starts, all the versions of windows will shown on your screen, then type index
+                    of your windows version and hit Enter and your windows activation is start.
+                    <br>
+                    In this case i actvate window 10 Professional so i type 5.
+                </p>
+            </div>
+            <img style="width: 50%; min-width: 300px;" src="cli-mode-img/4.jpg" alt="">
+            <br>
+            <br>
+            <div class="t_start">
+                <p class="para">
+                    Click 'ok'
+                </p>
+            </div>
+            <img style="width: 50%; min-width: 300px;" src="cli-mode-img/5.jpg" alt="">
+            <br>
+            <br>
+            <div class="t_start">
+                <p class="para">
+                    Click 'ok'
+                </p>
+            </div>
+            <img style="width: 50%; min-width: 300px;" src="cli-mode-img/6.jpg" alt="">
+            <br>
+            <br>
+            <div class="t_start">
+                <p class="para">
+                    Again Click 'ok' and your window is activated successfully
+                </p>
+            </div>
+            <img style="width: 50%; min-width: 300px;" src="cli-mode-img/7.jpg" alt="">
+            <br>
+            <br>
+            <div class="t_start">
+                <p class="para">
+                    Type 2 and hit Enter to exit the application
+                </p>
+            </div>
+            <img style="width: 50%; min-width: 300px;" src="cli-mode-img/8.jpg" alt="">
+        </div>
+
+    </div>
+
+
+    <footer>
+        <br>
+        <div class="footer-div">
+            <h4>Thank you <img src="images/heart_logo.png" alt=""> </h4>
+            <p id="by_me">By Haiyan Production</p>
+        </div>
+        <br>
+
+        <div id="7429" class="d-none">
+            <form method="post" name="google-sheet1">
+                <input type="text" value="Download" name="Downloads_Cli">
+                <button type="submit" id="555cli" ></button>
+            </form>
+
+            <form method="post" name="google-sheet2">
+                <input type="text" value="Download" name="Downloads_Gui">
+                <button type="submit" id="555gui" ></button>
+            </form>
+        </div>
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+    <script src="main.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+body {
+    background-color: #24252A;
+}
+
+.div2 {
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.div2 img {
+    width: 28%;
+}
+
+.div2 h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+
+.div3 {
+    color: white;
+    text-align: center;
+    margin-top: 40vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+@media (max-width:500px) {
+    .div2 img {
+        width: 68%;
+    }
+    .div3{
+        margin-top: 27vh;
+    }
+}

@@ -1,0 +1,122 @@
+#download_div{
+    background-color: #24252A; 
+    min-height: 10vh; 
+    display: flex;
+}
+
+.download_btns{
+    border: none; 
+    background-color: #a3c906; 
+    border-radius: 2px; 
+    font-size: 2rem; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white; 
+    width: 30%; 
+    padding: 5px 10px;
+    transition: all ease 0.5s;
+}
+.download_btns:hover{
+    background-color: #ccf723; 
+    width: 31%;
+
+}
+
+
+#download_heading{
+    color: white;
+    font-size: 2.2rem; 
+    margin-right: 8%;
+    font-family: 'Play', sans-serif;
+}
+
+#download_heading_mob{
+    color: white;
+    font-family: 'Play', sans-serif;
+}
+
+
+
+.docs_heading{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+
+
+.doc_images_div_cli{
+    background-color: #24252A; 
+    padding: 3rem;
+}
+
+#download_mob_div{
+    min-height:200px; 
+    background-color: #24252A; 
+    text-align: center; 
+    padding: 10px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1025px){
+    #download_heading{
+        font-size: 150%; 
+        margin-right: 2.5rem;
+    }
+    .download_btns{
+        font-size: 150%; 
+    }
+    
+}
+
+@media (max-width: 815px){
+    .download_btns{
+        width: 50%;
+    }
+    .download_btns:hover{
+        width: 50%;
+    }
+    #download_heading{
+        margin-right: 2rem;
+    }
+}
+@media (max-width: 625px){
+    #download_div{
+        display: none;
+    }
+    #download_mob_div{
+        display: block;
+    }
+    .download_btns{
+        width: 60%;
+    }
+    .download_btns:hover{
+        width: 60%;
+    }
+    .doc_images_div_cli{
+        padding: 2rem;
+    }
+}
