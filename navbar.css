@@ -155,7 +155,9 @@ body{
 }
 
 
-
+.mob-ads {
+     display: none;  
+}
 
 
 
@@ -170,6 +172,17 @@ body{
     .my-mob-nav-21{
         display: flex;
     }
+    
+    
+    .mob-ads {
+     display: block;  
+    }
+    
+    
+    
+    
+    
+    
 /* ===================================================================================== */
 .my-mob-nav-21-drop-option-bar{
     display: block;
