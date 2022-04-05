@@ -177,6 +177,9 @@ body{
     .mob-ads {
      display: block;  
     }
+    .pc-ads{
+     display: none;  
+    }
     
     
     
