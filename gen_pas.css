@@ -70,3 +70,17 @@
         #gen_pass_btn:hover {
             background-color: #ccf723;
         }
+
+
+
+
+        .pas_modal_close_btn {
+            color: white;
+            background: none;
+            padding: 0;
+            border: none;
+            transition: all ease 0.3s;
+        }
+        .pas_modal_close_btn:hover{
+            color: rgb(196, 196, 196);
+        }
