@@ -84,3 +84,13 @@
         .pas_modal_close_btn:hover{
             color: rgb(196, 196, 196);
         }
+
+
+
+
+@media (max-width: 800px){
+    #pas_output_inp,
+    #pas_length_inp {
+        margin-left: 0;
+    }
+}
