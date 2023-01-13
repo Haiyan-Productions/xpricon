@@ -1,0 +1,72 @@
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+
+
+        #pas_gen_modal {
+            color: white;
+        }
+
+        #pas_gen_modal_label {
+            font-family: 'Bebas Neue', cursive;
+            letter-spacing: 2px;
+        }
+
+        #pass_gen_output label,
+        #pas_gen_inp_div label {
+            font-family: 'Play', sans-serif;
+            margin-left: 15px;
+            letter-spacing: 1px;
+        }
+
+        input[type='checkbox'] {
+            accent-color: #a3c906;
+        }
+
+        #pas_output_inp,
+        #pas_length_inp {
+            background: none;
+            border: none;
+            color: white;
+            border-bottom: 1px solid white;
+            margin-left: 15px;
+            font-size: 14px;
+            width: 155px;
+
+        }
+
+        #pas_output_inp,
+        #pas_length_inp:focus {
+            outline: none;
+        }
+
+        #pass_copy_btn {
+            background: none;
+            color: white;
+            border: none;
+            margin-left: 10px;
+        }
+
+        #gen_pass_btn {
+            border: none;
+            background-color: #a3c906;
+            border-radius: 2px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            color: black;
+            padding: 5px 10px;
+            letter-spacing: 1px;
+            transition: all ease 0.5s;
+        }
+
+        #gen_pass_btn:hover {
+            background-color: #ccf723;
+        }
